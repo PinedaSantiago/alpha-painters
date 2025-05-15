@@ -12,7 +12,7 @@ const translations = {
     description: "We provide professional painting services for homes and businesses."
   },
   es: {
-    title: "Pintores Alpha",
+    title: "Alpha Painters",
     "welcome-msg": "¡Bienvenido a Pintores Alpha!",
     description: "Ofrecemos servicios profesionales de pintura para hogares y negocios."
   }
