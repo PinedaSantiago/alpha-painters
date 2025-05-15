@@ -19,7 +19,14 @@
 
   <header>
     <!-- Header usually contains the site name/logo and navigation menu -->
-    <h1>Alpha Painters</h1>
+    <h1 id="title">Alpha Painters</h1>
+
+    <!-- Language switch buttons -->
+    <div id="language-switcher">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('es')">Español</button>
+    </div>
+
     <nav>
       <!-- Navigation links to different sections of the page -->
       <a href="#">Home</a>
@@ -33,8 +40,8 @@
     <!-- Main section holds the key content of the page -->
     <section>
       <!-- This is a specific section of content -->
-      <h2>Professional Painting Services</h2>
-      <p>Interior & exterior painting with quality and precision. Serving homes and businesses with pride.</p>
+      <h2 id="service-title">Professional Painting Services</h2>
+      <p id="description">Interior & exterior painting with quality and precision. Serving homes and businesses with pride.</p>
     </section>
   </main>
 
